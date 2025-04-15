@@ -357,7 +357,7 @@
         
         try {
           const { data, error } = await supabaseClient
-            .from('clientes')
+            .from('clientes silvio')
             .select('nome')
             .eq('cpf', cpfLimpo)
             .single();
